@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://10.173.48.93:3306/practice?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: Deloitte12
+
+mybatis:
+  type-aliases-package: com.hlk.practice.pojo
+  mapper-locations: classpath:mapper/*Mapper.xml
